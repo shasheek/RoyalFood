@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+
+    <!-- Site Metas -->
+    <title>Royal Food Court</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
+
+    <!-- Modernizer -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Trigger/Open The Modal -->
+
+    <div id="loader">
+        <div id="status"></div>
+    </div>
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <nav class="navbar navbar-default" id="mainNav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                                        <img src="images/logo.gif" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#banner">Home</a></li>
+                                    <li><a href="#about">About us</a></li>
+                                    <li><a href="#whyus">Why us</a></li>
+
+                                    <!-- <li><a href="#menu">Menu</a></li>
+                                    <li><a href="#our_team">Team</a></li>
+                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#pricing">pricing</a></li>
+                                    <li><a href="#reservation">Reservaion</a></li> -->
+                                    <li><a href="#pricing">pricing</a></li>
+                                    <li><a href="#footer">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!-- end nav-collapse -->
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+    </div>
+    <!-- end site-header -->
+
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>Order with us for</br> <span class="typer" id="some-id" data-delay="200" data-delim=":"
+                                    data-words="Friends:Family:Colleague" data-colors="red"></span><span class="cursor"
+                                    data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <!--<p style=" margin-top: 2%;padding-bottom: 0px;font-family:cursive;font-size:12px">GHAR KI YAAD?? GHAR KA KHANA!</p>-->
+                            <h2 style=" margin-top: 2%;padding-bottom: 0px">HOME COOCKED FOOD </h2>
+                            <p style=" margin-top: 2%;margin-bottom: 2%;font-family:cursive;font-size:12px">A hungry
+                                must not go to food, the food will go to hungry.</br>We care for your precious time and
+                                your health.</br>Call us; we’ll take care of your health and time.</p>
+                            <div class="book-btn">
+                                <a id="myBtn" style="margin-top: 4px;" class="table-btn hvr-underline-from-center">SUBSCRIBE NOW</a>
+
+                                <a style="margin-top: 4px;" href="tel:+918999847096" class="table-btn hvr-underline-from-center">CALL US</a>
+                                <a style="margin-top: 4px;" href="https://api.whatsapp.com/send?phone=918999847096"
+                                    class="table-btn hvr-underline-from-center">WHATSAPP US</a>
+
+                            </div>
+
+
+                            <div id="myModalSuccess" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="modal-header" style="background: green;">
+                                        <div class="closes">x</div>
+                                        
+                                            <h3 style="font-size:12px;font-family:cursive;width: 90%">
+                                                <p style="font-size:16px;font-weight:bold;margin-left:10%;padding:10px">Royal Food
+                                                    Court</p>
+                                                <span class="typer" style="color:yellow" id="some-id" data-delay="200"
+                                                    data-delim=":" data-words="Ignite The Taste Ignite The World! "
+                                                    data-colors="white">
+                                                </span><span class="cursor" data-cursorDisplay="_"
+                                                    data-owner="some-id"></span>
+                                            </h3>
+                                        
+                                    </div>
+                                  <div class="modal-body">
+                                    <p style="padding:0px;color:black;font-size:12px;font-family:cursive;">Thank you for your order. </p>
+                                    <p style="padding:0px;color:black;font-size:12px;font-family:cursive;">We will get back to you for confirmation.</p>
+
+                                  </div>
+                                  <div class="modal-footer" style="padding:6px;font-size:12px;font-family:cursive;">
+                                    <h4 style="font-size:12px;font-family:cursive;">Thanks<br>RFC Team</h4>
+                                  </div>
+                                </div>
+                              
+                              </div>
+
+                              <div id="myModalFail" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="closef">x</div>
+                                        
+                                            <h3 style="font-size:12px;font-family:cursive;width: 90%">
+                                                <p style="font-size:16px;font-weight:bold;margin-left:10%;padding:10px">Royal Food
+                                                    Court</p>
+                                                <span class="typer" style="color:yellow" id="some-id" data-delay="200"
+                                                    data-delim=":" data-words="Ignite The Taste Ignite The World! "
+                                                    data-colors="white">
+                                                </span><span class="cursor" data-cursorDisplay="_"
+                                                    data-owner="some-id"></span>
+                                            </h3>
+                                        
+                                    </div>
+                                  <div class="modal-body" style="padding: 5px;">
+                                    <p style="padding:0px;color:red;font-size:12px;font-family:cursive;">Opps! Something wrong happened</p>
+                                    <p style="padding:0px;color:green;font-size:12px;font-family:cursive;">Please submit again</p>
+                                  </div>
+                                  <div class="modal-footer" style="padding:6px">
+                                    <h4 style="font-size:12px;font-family:cursive;">Thanks<br>RFC Team</h4>
+                                  </div>
+                                </div>
+                              
+                              </div>
+
+
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="close1">x</div>
+                                        
+                                            <h3 style="font-size:12px;font-family:cursive;width: 90%">
+                                                <p style="font-size:16px;font-weight:bold;margin-left:10%;padding:10px">Royal Food
+                                                    Court</p>
+                                                <span class="typer" style="color:yellow" id="some-id" data-delay="200"
+                                                    data-delim=":" data-words="Ignite The Taste Ignite The World! "
+                                                    data-colors="white">
+                                                </span><span class="cursor" data-cursorDisplay="_"
+                                                    data-owner="some-id"></span>
+                                            </h3>
+                                        
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-reservations-box">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+
+                                                </div>
+
+                                                <div id="contact-form-js" class="reservations-box" name="contactform1">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="form-box">
+                                                            <input type="text" name="form_name" id="form_name"
+                                                                placeholder="Name" required="required"
+                                                                data-error="Firstname is required.">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- end col -->
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="form-box">
+                                                            <input type="text" name="phone" id="phone"
+                                                                placeholder="contact no.">
+                                                        </div>
+                                                    </div>
+                                                    <!-- end col -->
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="form-box">
+                                                            <select name="no_of_persons" id="mealplan"
+                                                                class="selectpicker">
+                                                                <option selected disabled>Select Plan</option>
+                                                                <option>Monthly 1 Time Meal</option>
+                                                                <option>Monthly 2 Time Meal</option>
+                                                                <option>One Meal Order</option>
+                                                                <option>Bulk Order</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- end col -->
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="datepicker">
+                                                        <div class="form-box">
+                                                            <input type="text" name="date-picker" id="date-picker"
+                                                                placeholder="Start Date" required="required"
+                                                                data-error="Date is required." />
+                                                        </div>
+                                                    </div>
+                                                    <!-- end col -->
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                        <div class="form-box">
+                                                            <select name="no_of_persons" id="localarea"
+                                                                class="selectpicker">
+                                                                <option selected disabled>Select Area</option>
+                                                                <option>Somalwada</option>
+                                                                <option>Manish Nagar</option>
+                                                                <option>Trimuri Nagar</option>
+                                                                <option>Chhatrapati</option>
+                                                                <option>Hingana</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 message"
+                                                        id="message" style="display:none">
+                                                        <div class="form-box">
+                                                            <p
+                                                                style="font-size: unset;padding: 0px;color: black;font-family: cursive;font-size: 12px;">
+                                                                PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="reserve-book-btn text-center">
+                                                            <button class="hvr-underline-from-center" id="submit">SUBMIT
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end col -->
+                                                </div>
+                                                <!-- end form -->
+                                            </div>
+                                            <!-- end col -->
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    
+                                    </div>
+                                </div>
+
+                            </div>
+                           
+
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
+
+    <div id="about" class="about-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title"> About Us </h2>
+                        <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                        <p> We, Royal Food Court, situated at Savitri Vihar, Nagpur, Maharashtra, offer pre-planned meal
+                            packages that a customer can customize to his liking. </p>
+
+
+                        <p> We offer a wide array of meal options in vegetarian and non-vegetarian section.</br>Each
+                            option is not just finger-licking good but highly nutritious and prepared under very
+                            hygienic conditions. </p>
+
+
+
+                        <p> Royal Food Court is all about door delivering home-cooked meals and homemade delicacies.
+                            Each plate of food served through Royal Food Court is prepared using fresh, locally sourced
+                            produce in a home kitchen just like yours with authentic, regional recipes by real people
+                            with a passion for cooking.</p>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <div class="about-images">
+                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
+                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+
+    <div id="whyus" class="menu-main pad-top-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Why Us
+                        </h2>
+                        <p class="title-caption text-center">
+                            You will have enough reasons but here are few. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/bestquality.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>QUALITY</h3>
+                            <p>
+                                Food prepared with best Quality raw metarian and Mineral water.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/bestprice.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>BEST PRICE</h3>
+                            <p>
+                                Serving you at best affordable price.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/norepeat.png" alt="" class="img-responsive">
+                        <div>
+                            <h3>NON REPEATING MEALS</h3>
+                            <p>
+                                We do not repeat same meal twice in a week to maintain your taste bud.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/services.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>SERVICES</h3>
+                            <p>
+                                Your order delivered at your place on time every day.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/triesandtested.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>TRIED AND TESTED</h3>
+                            <p>
+                                Try for 1 day/1 week and subscribe if satisfied for a month plan.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <div class="offer-item">
+                        <img src="images/authentic.jpg" alt="" class="img-responsive">
+                        <div>
+                            <h3>AUTHENTIC HOME MADE INDIAN FOOD</h3>
+                            <p>
+                                Swaad ghar jaisa!.
+                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="pricing" class="menu-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Pricing
+                        </h2>
+                        <p class="title-caption text-center">It is our endeavor to make sure that you enjoy homely
+                            cooked food at very affordable rates and hassle-free packages. </p>
+                    </div>
+                    <div class="tab-menu">
+                        <div class="slider slider-nav">
+                            <div class="tab-title-menu">
+                                <h2>Monthly 1 Time Meal</h2>
+                                <p style="font-weight: normal;"> <i class="flaticon-dinner"></i> </p>
+                                <p>₹1800/Month</p>
+
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Monthly 2 Time Meal</h2>
+
+                                <p style="font-weight: normal;"> <i class="flaticon-dinner"></i> <i
+                                        class="flaticon-dinner"></i></p>
+                                <p>₹2800/Month</p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>1 Meal Order &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h2>
+                                <p style="font-weight: normal;"> <i class="flaticon-dinner"></i> </p>
+                                <p>*₹70/Meal</p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Bulk Orders &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
+                                <p style="font-weight: normal;"> <i class="flaticon-dinner"></i> </p>
+                                <p>Call us for details</p>
+                            </div>
+                        </div>
+                        <div class="slider slider-single">
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/chapatiicon.png" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>BREAD/CHAPATI</h3>
+                                            <p>
+                                                We make our Chapatis with layers ,so that Chapatis are soft and moist.
+                                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/riceicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>RICE</h3>
+                                            <p>
+                                                No rinsing, so soaking, no faffing. This is how to cook rice perfectly
+                                                every time
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/sabjiicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SEASONAL VEGETABLES</h3>
+                                            <p>
+                                                We use fresh Vegetables that are super healthier for you.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/dalicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>DAL</h3>
+                                            <p>
+                                                We provide plain dal as well Dal with tadka of cumin seeds, mustard
+                                                seeds, curry leaves!
+                                            </p>
+                                        </div>
+                                        <!--<span class="offer-price">$10</span>-->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/saladicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SALAD/CURD/CHUTNEY</h3>
+                                            <p>
+                                                We prepare Curd by ourselves and also provide Salad along with some
+                                                delicious Chutneys to make your taste Chatpata.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="subs1">
+                                    <div class="offer-item book-btn"
+                                        style="float:right;margin-top: 6%;margin-right: 10%;">
+                                        <a href="tel:+918999847096" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">CALL NOW</a>
+                                        <a id="myBtn1" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">SUBSCRIBE NOW</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/chapatiicon.png" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>BREAD/CHAPATI</h3>
+                                            <p>
+                                                We make our Chapatis with layers ,so that Chapatis are soft and moist.
+                                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/riceicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>RICE</h3>
+                                            <p>
+                                                No rinsing, so soaking, no faffing. This is how to cook rice perfectly
+                                                every time
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/sabjiicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SEASONAL VEGETABLES</h3>
+                                            <p>
+                                                We use fresh Vegetables that are super healthier for you.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/dalicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>DAL</h3>
+                                            <p>
+                                                We provide plain dal as well Dal with tadka of cumin seeds, mustard
+                                                seeds, curry leaves!
+                                            </p>
+                                        </div>
+                                        <!--<span class="offer-price">$10</span>-->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/saladicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SALAD/CURD/CHUTNEY</h3>
+                                            <p>
+                                                We prepare Curd by ourselves and also provide Salad along with some
+                                                delicious Chutneys to make your taste Chatpata.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="subs2">
+                                    <div class="offer-item book-btn"
+                                        style="float:right;margin-top: 6%;margin-right: 10%;">
+                                        <a href="tel:+918999847096" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">CALL NOW</a>
+                                        <a id="myBtn2" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">SUBSCRIBE NOW</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/chapatiicon.png" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>BREAD/CHAPATI</h3>
+                                            <p>
+                                                We make our Chapatis with layers ,so that Chapatis are soft and moist.
+                                                <!--Chapatis are freshly made once we receive the order, so they are always fresh.and folds with oil brushed in between the layers-->
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/riceicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>RICE</h3>
+                                            <p>
+                                                No rinsing, so soaking, no faffing. This is how to cook rice perfectly
+                                                every time
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/sabjiicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SEASONAL VEGETABLES</h3>
+                                            <p>
+                                                We use fresh Vegetables that are super healthier for you.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/dalicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>DAL</h3>
+                                            <p>
+                                                We provide plain dal as well Dal with tadka of cumin seeds, mustard
+                                                seeds, curry leaves!
+                                            </p>
+                                        </div>
+                                        <!--<span class="offer-price">$10</span>-->
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/saladicon.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SALAD/CURD/CHUTNEY</h3>
+                                            <p>
+                                                We prepare Curd by ourselves and also provide Salad along with some
+                                                delicious Chutneys to make your taste Chatpata.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="offer-item book-btn"
+                                        style="float:right;margin-top: 6%;margin-right: 10%;">
+
+                                        <a href="tel:+918999847096" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">CALL NOW</a>
+                                        <a id="myBtn3" class="table-btn hvr-underline-from-center"
+                                            style="padding:2px">ORDER NOW</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="width: 100%;">
+                                    <div class="offer-item">
+                                        <img src="images/menu-item-thumbnail-10.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3 style="text-align:center">Party Orders in Nagpur - Homemade Food</h3>
+                                            <p>
+                                                Throw A Party With Hearty and Delicious HomeMade Foods With Custom Party
+                                                Orders.
+                                                </br> Try Delicious & Freshly Prepared Regional Cuisines That Will Leave
+                                                You Craving For More.
+
+                                                </br>Our Customizable menu has got you covered with all food-related
+                                                requirements when celebrating birthdays, anniversaries, promotions,
+                                                reunions, & more!
+
+                                                </br>
+                                            <p style="color:#e75b1e">We undertake both pre packed and bulk orders.</p>
+                                            </p>
+                                            <h3 style="text-align:center">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                    <div class="offer-item book-btn"
+                                                        style="float:right;margin-top: 6%;">
+                                                        <a href="tel:+918999847096"
+                                                            class="table-btn hvr-underline-from-center"
+                                                            style="font-size: 10px;padding:2px">
+                                                            <i class="fa fa-phone"
+                                                                aria-hidden="true"></i>&nbsp&nbspClick here to Call
+                                                            Now</a>
+                                                        <a href="https://api.whatsapp.com/send?phone=918999847096"
+                                                            class="table-btn hvr-underline-from-center"
+                                                            style="font-size: 10px;padding:2px">
+                                                            <i class="fa fa-whatsapp"
+                                                                aria-hidden="true"></i>&nbsp&nbspClick here to Whatsapp
+                                                            Now</a>
+                                                    </div>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- end pricing-main -->
+
+    <div id="footer" class="footer-main">
+
+        <!-- end footer-news -->
+        <div class="footer-box pad-top-70">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-in-main">
+                        <div class="footer-logo">
+                            <div class="text-center">
+                                <img src="images/logo.gif" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-a">
+                                <h3>Connect</h3>
+                                <ul class="socials-box footer-socials pull-left">
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=918999847096">
+                                            <div class="social-circle-border"><i class="fa fa-whatsapp"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- end footer-box-a -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-b">
+                                <h3>New Menu</h3>
+                                <ul>
+                                    <li><a href="#">Jeera Rice And Mixed Dal Tadka</a></li>
+                                    <li><a href="#">Pyaazi Pulao And Lauki Chana Dal</a></li>
+                                    <li><a href="#">Matar Pulao And Rajasthani Dal Panchmel</a></li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-b -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-c">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                    <span>207, Savitri Vihar, Somalwada, Nagpur, Maharashtra, 440015</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <span>
+                                        +91 8999847096
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="#">abcdshashikant@gmail.com</a></span>
+                                </p>
+                            </div>
+                            <!-- end footer-box-c -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-d">
+                                <h3>Opening Hours</h3>
+
+                                <ul>
+                                    <li>
+                                        <p>Monday - Saturday </p>
+                                        <span> 7:00 AM - 9:00 PM</span>
+                                    </li>
+                                    <li>
+                                        <p>Sunday </p>
+                                        <span> 7:00 AM - 1:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-d -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end footer-in-main -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; 2021 Shashi Kant <a href="#" target="_blank"></a>
+                            </h6>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copyright-main -->
+        </div>
+        <!-- end footer-box -->
+    </div>
+    <!-- end footer-main -->
+
+    <a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+    <!--<section id="color-panel" class="close-color-panel">
+        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
+        <div class="segment">
+            <h4 class="gray2 normal no-padding">Color Scheme</h4>
+            <a title="orange" class="switcher orange-bg"></a>
+            <a title="strong-blue" class="switcher strong-blue-bg"></a>
+            <a title="moderate-green" class="switcher moderate-green-bg"></a>
+            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+        </div>
+    </section> -->
+
+    <!-- ALL JS FILES 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    -->
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
